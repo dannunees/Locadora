@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <link rel="stylesheet" type="text/css" href="css/cadastro.css">
+        
+    </head>
+    <body>
+
+        <header style="display: flex; justify-content: space-around;">
+            <img style="    width: 25%;
+            height: 100%;" class="logo" src="./image/logotipo.png">
+            <nav>
+                <ul>
+                    <li><a href="veiculos.html">Veiculos</a></li>
+                    <li><a href="cadastro.php">Cadastro</a></li>
+                    <li> 
+                      <a href="cadastro.php#paralogin">Login</a>
+                    </li>
+                    <li><a href="testemail.html">Contato</a></li>
+                    <li><a href="index.php">Lista Veiculos</a></li>
+                </ul>
+            </nav>
+            
+        </header>
+        
+<div class="container" >
+    <a class="links" id="paracadastro"></a>
+    <a class="links" id="paralogin"></a>
+    
+    <div class="content">      
+
+      <div id="cadastro">
+        <form method="post" action="processar.php"> 
+          <h1>Fale Conosco</h1> 
+          
+          <p> 
+            <label for="nome_cad">Seu nome</label>
+            <input id="nome_cad" name="nome" required="required" type="text" placeholder="digite seu nome" />
+          </p>
+          
+          <p> 
+            <label for="email_cad">Seu e-mail</label>
+            <input id="email_cad" name="de" required="required" type="email" placeholder="digite seu e-mail"/> 
+          </p>
+
+          <p> 
+            <label for="email_cad">Para</label>
+            <input id="" name="para" required="required" type="email" placeholder="digite seu e-mail"/> 
+          </p>
+
+          <p> 
+            <label for="text">Assunto</label>
+            <input id="" name="assunto" required="required" type="email" placeholder="digite seu e-mail"/> 
+          </p>
+          
+          <p> 
+            <label for="senha_cad">Sua mensagem</label>
+            <input id="" name="mensagem" required="required" type="password" placeholder="digite sua senha"/>
+          </p>
+          
+          <p> 
+            <input type="submit" value="Enviar"/> 
+          </p>
+        </form>
+      </div>
+    </div>
+  </div> 
+
+
+
+
+
+
+    </body>
+
+</html>

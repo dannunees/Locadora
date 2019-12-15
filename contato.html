@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <link rel="stylesheet" type="text/css" href="css/contato.css">
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    </head>
+    <body>
+        <header>
+            <nav>
+                <ul>
+                    <li><a href="index.html">Inicio</a></li>
+                    <li><a href="cadastro.php">Cadastro</a></li>
+                    <li><a href="cadastro.html#paralogin">Login</a></li>
+                    <li>Contato</li>
+                    <li><a href="index.php">Lista Veiculos</a></li>
+                </ul>
+            </nav>
+            
+        </header>
+
+
+    <div class="contato">
+        <form method="post" action="email.php"> 
+            <h1>Fale Conosco</h1> 
+            
+            <p> 
+              <label for="nome_cad">Seu nome</label>
+              <input id="nome_cad" name="nome" required="required" type="text" placeholder="digite seu nome" />
+            </p>
+            
+            <p> 
+              <label for="email_cad">Seu e-mail</label>
+              <input id="email_cad" name="de" required="required" type="email" placeholder="digite seu e-mail"/> 
+            </p>
+
+            <p> 
+              <label for="email_cad">Para</label>
+              <input id="" name="para" required="required" type="email" placeholder="digite seu e-mail"/> 
+            </p>
+
+            <p> 
+              <label for="email_cad">Assuntp</label>
+              <input id="" name="assunto" required="required" type="email" placeholder="digite seu e-mail"/> 
+            </p>
+            
+            <p> 
+              <label for="senha_cad">Sua mensagem</label>
+              <input id="" name="mensagem" required="required" type="password" placeholder="digite sua senha"/>
+            </p>
+            
+            <p> 
+              <input type="submit" value="Enviar"/> 
+            </p>
+            
+          </form>
+    </div>
+
+     <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+        <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+
+    </body>
+</html>
